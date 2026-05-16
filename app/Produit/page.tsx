@@ -212,6 +212,13 @@ const z = useTransform(scrollY, [0,300], [0,150]); // mouvement de l'image
                             className="border border-white mt-15 ml-17 rounded-t-lg rounded-b-xl" type="email" />
                         </div>
 
+                        <section>
+                         <motion.p
+                                className="pt[189]">Commencez dès aujourd'hui votre essaie gratuit avec SPY. Puis utilisez ces rerrouces pour vous
+                        <br /> <span className="pt-[80]">guider à chaque étape du processus.</span>
+                     </motion.p>   
+                        </section>
+
                         <div className="flex center ">
                             <motion.img drag
                             dragSnapToOrigin
