@@ -222,7 +222,7 @@ const z = useTransform(scrollY, [0,300], [0,150]); // mouvement de l'image
                         <div className="flex center ">
                             <motion.img drag
                             dragSnapToOrigin
-                                style={{y: z}}                    
+                                style={{y: z}}       
                                 whileHover={{scale: 1.3}} 
                                 whileTap={{scale: 0.90}}
                                  transition={{
